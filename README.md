@@ -6,6 +6,8 @@
 
 [filament-select-tree](https://github.com/codewithdennis/filament-select-tree)
 
+![screenshot](./denisselecttree.png)  
+
 ```php
 // ProductResource.php
 
