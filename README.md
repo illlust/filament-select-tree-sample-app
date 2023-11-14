@@ -11,7 +11,9 @@
 ![screenshot](./denisselecttree.png)  
 
 ```php
+//
 // ProductResource.php
+//
 
 use CodeWithDennis\FilamentSelectTree\SelectTree;
 use Filament\Forms\Components\TextInput;
@@ -78,4 +80,17 @@ class ProductResource extends Resource
             ]);
     }
 }
+```
+
+```php
+//
+// Just Example
+//
+Schema::create('categories', function (Blueprint $table) {
+  $table->id();
+  $table->string('name');
+  $table->unsignedBigInteger('category_id')->index()->nullable(); // or parent_id
+  $table->foreign('category_id')->references('id')->on('categories')->cascadeOnDelete();
+  $table->timestamps();
+});
 ```
