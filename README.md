@@ -10,6 +10,8 @@
 
 ![screenshot](./denisselecttree.png)  
 
+This is a sample of BelongsTo. For BelongsToMany, refer to the manual.
+
 ```php
 //
 // ProductResource.php
