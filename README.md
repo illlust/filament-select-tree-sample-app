@@ -2,8 +2,10 @@
 
 ## Filament Select Tree (by CodeWithDennis) Sample
 
-[codewithdennis-select-tree](https://filamentphp.com/plugins/codewithdennis-select-tree)
+![filamentphp](https://filamentphp.com/favicon/favicon-32x32.png)
+[CodeWithDennis/filament-select-tree](https://filamentphp.com/plugins/codewithdennis-select-tree)
 
+![github](https://github.githubassets.com/favicons/favicon.svg)
 [filament-select-tree](https://github.com/codewithdennis/filament-select-tree)
 
 ![screenshot](./denisselecttree.png)  
